@@ -1665,7 +1665,7 @@ dl {
     margin-left: 25px; }
     @media screen and (max-width: 768px) {
       .inner-container .post {
-        width: 90%; } }
+        width: 100%; } }
     @media screen and (max-width: 480px) {
       .inner-container .post {
         margin-left: 0px; } }
