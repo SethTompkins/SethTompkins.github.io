@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "The Quick Brown Fox Jumps Over Ron Burgundy"
 date:   2013-12-30 11:03:31
-categories: jekyll update
+categories: jekyll dolphins-are-assholes
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
