@@ -1629,10 +1629,9 @@ dl {
     font-size: 2em; }
   .inner-container pre {
     margin: 0; }
-  .inner-container p, .inner-container a, .inner-container blockquote, .inner-container ul, .inner-container pre {
+  .inner-container p, .inner-container a, .inner-container blockquote, .inner-container ul {
     font-size: 24px;
-    line-height: 1.5em;
-    margin-bottom: 30px; }
+    line-height: 1.5em; }
   .inner-container p {
     margin-bottom: 30px;
     color: #222222;
