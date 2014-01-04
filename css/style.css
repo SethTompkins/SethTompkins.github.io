@@ -1615,7 +1615,11 @@ dl {
   margin-left: 25px; }
   @media screen and (max-width: 1000px) {
     .inner-container {
-      margin-top: 276px; } }
+      margin-top: 270px; } }
+  @media screen and (max-width: 768px) {
+    .inner-container {
+      width: 90%;
+      margin: 0 auto; } }
   .inner-container h1, .inner-container h2, .inner-container h3, .inner-container h4, .inner-container h5, .inner-container h6, .inner-container p, .inner-container a, .inner-container blockquote {
     font-family: "Roboto Slab", serif; }
   .inner-container h1, .inner-container h2, .inner-container h3, .inner-container h4, .inner-container h5, .inner-container h6 {
@@ -1623,19 +1627,31 @@ dl {
     line-height: 1.5em; }
   .inner-container h1 {
     font-size: 4em; }
+    @media screen and (max-width: 768px) {
+      .inner-container h1 {
+        font-size: 3em; } }
   .inner-container h2 {
     font-size: 2.5em; }
+    @media screen and (max-width: 768px) {
+      .inner-container h2 {
+        font-size: 2em; } }
   .inner-container h3 {
     font-size: 2em; }
+    @media screen and (max-width: 768px) {
+      .inner-container h3 {
+        font-size: 1.75em; } }
   .inner-container pre {
     margin: 0; }
   .inner-container p, .inner-container a, .inner-container blockquote, .inner-container ul {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.5em; }
   .inner-container p {
     margin-bottom: 30px;
     color: #222222;
     letter-spacing: .01rem; }
+  .inner-container ul {
+    margin-left: 15px;
+    margin-bottom: 12px; }
   .inner-container .post {
     width: 800px;
     margin-left: 25px; }
