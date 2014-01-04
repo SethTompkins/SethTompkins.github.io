@@ -1615,9 +1615,10 @@ dl {
   margin-left: 25px; }
   @media screen and (max-width: 1000px) {
     .inner-container {
-      margin-top: 270px; } }
+      margin-top: 255px; } }
   @media screen and (max-width: 768px) {
     .inner-container {
+      margin-top: 290px;
       width: 90%;
       margin-left: auto;
       margin-right: auto; } }
@@ -1646,13 +1647,19 @@ dl {
   .inner-container p, .inner-container a, .inner-container blockquote, .inner-container ul {
     font-size: 22px;
     line-height: 1.5em; }
+    @media screen and (max-width: 768px) {
+      .inner-container p, .inner-container a, .inner-container blockquote, .inner-container ul {
+        font-size: 20px; } }
   .inner-container p {
     margin-bottom: 30px;
     color: #222222;
     letter-spacing: .01rem; }
-  .inner-container ul {
+  .inner-container ul li {
     margin-left: 15px;
     margin-bottom: 12px; }
+    @media screen and (max-width: 768px) {
+      .inner-container ul li {
+        margin-left: 5px; } }
   .inner-container .post {
     width: 800px;
     margin-left: 25px; }
