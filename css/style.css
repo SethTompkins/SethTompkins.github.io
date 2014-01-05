@@ -1598,8 +1598,7 @@ dl {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-left: 190px;
-  margin-right: 25px; }
+  margin-left: 190px; }
   .outer-container:before, .outer-container:after {
     content: " ";
     display: table; }
@@ -1611,14 +1610,10 @@ dl {
       margin: 0; } }
 
 .inner-container {
-  margin-top: 142px;
+  margin-top: 15px;
   margin-left: 25px; }
-  @media screen and (max-width: 1000px) {
-    .inner-container {
-      margin-top: 255px; } }
   @media screen and (max-width: 768px) {
     .inner-container {
-      margin-top: 290px;
       width: 90%;
       margin-left: auto;
       margin-right: auto; } }
@@ -1663,15 +1658,15 @@ dl {
   .inner-container .post {
     width: 800px;
     margin-left: 25px; }
-    @media screen and (max-width: 890px) {
+    @media screen and (max-width: 1100px) {
       .inner-container .post {
         width: 90%; } }
+    @media screen and (max-width: 890px) {
+      .inner-container .post {
+        margin-left: 0px; } }
     @media screen and (max-width: 768px) {
       .inner-container .post {
         width: 100%; } }
-    @media screen and (max-width: 480px) {
-      .inner-container .post {
-        margin-left: 0px; } }
 
 .item {
   float: left;
@@ -1806,8 +1801,8 @@ nav.expand {
 
 .header {
   background-color: black;
-  padding: 1em;
-  position: absolute;
+  padding: 1.1em;
+  position: relative;
   width: 100%; }
   .header h1 {
     color: white; }
