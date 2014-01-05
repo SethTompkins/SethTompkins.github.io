@@ -105,7 +105,7 @@ del {
   color: #595959; }
 
 blockquote {
-  border-left: 2px solid #dddddd;
+  border-left: 5px solid #dddddd;
   color: #595959;
   margin: 1.5em 0;
   padding-left: 0.75em; }
@@ -1663,6 +1663,9 @@ dl {
   .inner-container .post {
     width: 800px;
     margin-left: 25px; }
+    @media screen and (max-width: 890px) {
+      .inner-container .post {
+        width: 90%; } }
     @media screen and (max-width: 768px) {
       .inner-container .post {
         width: 100%; } }
