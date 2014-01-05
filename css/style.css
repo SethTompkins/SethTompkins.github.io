@@ -70,9 +70,9 @@ p {
 a {
   color: red;
   text-decoration: none;
-  -webkit-transition: color 0.1s linear;
-  -moz-transition: color 0.1s linear;
-  transition: color 0.1s linear; }
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  transition: color 0.2s linear; }
   a:hover {
     color: #b30000; }
   a:active, a:focus {
@@ -80,7 +80,7 @@ a {
     outline: none; }
 
 hr {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 0px solid #dddddd;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -1645,6 +1645,13 @@ dl {
     @media screen and (max-width: 768px) {
       .inner-container p, .inner-container a, .inner-container blockquote, .inner-container ul {
         font-size: 20px; } }
+  .inner-container a h1 {
+    -webkit-transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+    color: red; }
+    .inner-container a h1:hover {
+      color: #b30000; }
   .inner-container p {
     margin-bottom: 30px;
     color: #222222;
