@@ -1,3 +1,4 @@
 name: The Portfolio of Seth Tompkins
+permalink: /:categories/:title
 markdown: redcarpet
 pygments: false

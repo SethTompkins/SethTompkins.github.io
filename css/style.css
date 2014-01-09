@@ -1628,16 +1628,27 @@ dl {
     @media screen and (max-width: 768px) {
       .inner-container h1 {
         font-size: 3em; } }
+    @media screen and (max-width: 480px) {
+      .inner-container h1 {
+        font-size: 2em; } }
   .inner-container h2 {
-    font-size: 2.5em; }
+    font-size: 2.5em;
+    margin-bottom: 10px; }
     @media screen and (max-width: 768px) {
       .inner-container h2 {
         font-size: 2em; } }
+    @media screen and (max-width: 480px) {
+      .inner-container h2 {
+        font-size: 1.5em; } }
   .inner-container h3 {
-    font-size: 2em; }
+    font-size: 2em;
+    margin-bottom: 10px; }
     @media screen and (max-width: 768px) {
       .inner-container h3 {
         font-size: 1.75em; } }
+    @media screen and (max-width: 480px) {
+      .inner-container h3 {
+        font-size: 1.25em; } }
   .inner-container pre {
     margin: 0; }
   .inner-container p, .inner-container a, .inner-container blockquote, .inner-container ul {
@@ -1675,26 +1686,50 @@ dl {
     @media screen and (max-width: 768px) {
       .inner-container ul li {
         margin-left: 5px; } }
-  .inner-container .post {
+  .inner-container .post p {
     width: 800px;
     margin-left: 25px; }
     @media screen and (max-width: 1100px) {
-      .inner-container .post {
+      .inner-container .post p {
         width: 90%; } }
     @media screen and (max-width: 890px) {
-      .inner-container .post {
+      .inner-container .post p {
         margin-left: 0px; } }
     @media screen and (max-width: 768px) {
-      .inner-container .post {
+      .inner-container .post p {
         width: 100%; } }
 
-.item {
-  float: left;
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-  padding: 15px;
-  color: white; }
+.inner-container.home {
+  margin-top: 25px;
+  background-color: #d8d8d8; }
+
+a.item-link .item {
+  width: auto;
+  height: auto;
+  margin: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1); }
+  a.item-link .item img {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  a.item-link .item .item-title {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    font-size: 2em;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  a.item-link .item:hover .item-title {
+    opacity: 1;
+    color: red; }
+  a.item-link .item:hover img {
+    opacity: 0; }
+a.item-link .item.portfoliowebsite {
+  width: 50%; }
 
 .design {
   background-color: blue; }
@@ -1710,6 +1745,39 @@ dl {
 
 .hide {
   display: none; }
+
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s; }
+
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width; }
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  transition-property: transform, opacity; }
+
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s; }
 
 nav {
   -webkit-transition: all 1s ease;
@@ -1784,7 +1852,7 @@ nav {
       -webkit-transition: all 1s ease;
       -moz-transition: all 1s ease;
       transition: all 1s ease;
-      font-size: 2.25em;
+      font-size: 2.2em;
       line-height: 1em;
       display: none;
       opacity: 0; }
