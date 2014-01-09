@@ -1618,7 +1618,7 @@ dl {
       width: 90%;
       margin-left: auto;
       margin-right: auto; } }
-  .inner-container h1, .inner-container h2, .inner-container h3, .inner-container h4, .inner-container h5, .inner-container h6, .inner-container p, .inner-container a, .inner-container blockquote {
+  .inner-container h1, .inner-container h2, .inner-container h3, .inner-container h4, .inner-container h5, .inner-container h6 {
     font-family: "Roboto Slab", serif; }
   .inner-container h1, .inner-container h2, .inner-container h3, .inner-container h4, .inner-container h5, .inner-container h6 {
     color: #111111;
