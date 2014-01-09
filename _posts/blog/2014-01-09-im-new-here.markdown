@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "I'm New Here"
-date:   2013-12-30 11:03:31
+date:   2014-01-9 11:56:31
 categories: blog general
 ---
 
-I woke up one day, like every other day, but I felt different, somehow changed.
+I woke up one day, like every other day, but I felt different; somehow changed.
 
 I felt like I needed to write again.
 
