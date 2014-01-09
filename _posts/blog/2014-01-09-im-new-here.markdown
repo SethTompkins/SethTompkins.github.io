@@ -19,7 +19,7 @@ Maybe someone will read it too.
 
 **P.S. -** That raccoon-looking thing in the top-left is no raccoon at all, it is my Spirit Bear. My personal mascot and eternal digital friend.
 
-**P.P.S. -** I promise I am not mentally ill.
+**P.P.S. -** I promise that I am not mentally ill.
 
 *Seth Tompkins*
 
