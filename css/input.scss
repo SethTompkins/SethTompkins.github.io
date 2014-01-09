@@ -134,6 +134,21 @@ a.item-link {
 			.item-title {
 				width: 100%; position: absolute; top: 45%; font-size: 2em; opacity: 0;
 				@include transition(all 0.5s ease);
+				@include media($twelveHundred) {
+					font-size: 1.75em;
+				}				
+				@include media($elevenHundred) {
+					font-size: 1.5em;
+				}				
+				@include media($eightNinety) {
+					font-size: 1.25em;
+				}				
+				@include media($tablet) {
+					font-size: 1.5em;
+				}
+				@include media($mobile) {
+					font-size: 1.25em;
+				}
 			}
 
 			&:hover .item-title {
@@ -147,6 +162,9 @@ a.item-link {
 
 	.item.portfoliowebsite {
 		width: 50%;
+		@include media($tablet) {
+			width: 100%;
+		}
 	}
 }
 

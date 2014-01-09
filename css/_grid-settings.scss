@@ -8,6 +8,7 @@ $max-width: 100%;
 
 // Define your breakpoints
 $thirteenHundred: new-breakpoint(max-width 1300px 12);
+$twelveHundred: new-breakpoint(max-width 1200px 12);
 $elevenHundred: new-breakpoint(max-width 1100px 12);
 $topBreak: new-breakpoint(max-width 1000px 12);
 $eightNinety: new-breakpoint(max-width 890px 12);
