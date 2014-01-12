@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 
+	var $container = $('.inner-container');
+
 	$('.logo').click( function() {
 		if ($('nav').hasClass('expand')) {
 			$('nav').removeClass('expand');
@@ -9,12 +11,15 @@ $( document ).ready(function() {
 		}
 	});
 
-	$('.inner-container').isotope({
-  		itemSelector: '.item',
-  		// layout mode options
-  		masonry: {
-  			gutter: 0
-  		}
+	$(window).load(function(){
+
+		$container.isotope({
+	  		itemSelector: '.item',
+	  		// layout mode options
+	  		masonry: {
+	  			gutter: 0
+	  		}
+		});
 	});
 
 });
