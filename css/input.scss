@@ -7,7 +7,9 @@
 $roboto-slab: 'Roboto Slab', serif;
 
 .outer-container {
-  @include outer-container; margin-left: 190px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: 190px;
   @include media($topBreak) {
 	max-width: 100%; margin: 0; }
 }
